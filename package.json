@@ -2,6 +2,10 @@
   "name": "l_page",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FabPark/l_page.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,19 +13,36 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
+    "@contentlayer/core": "^0.3.4",
+    "@contentlayer/source-files": "^0.3.4",
+    "@contentlayer/utils": "^0.3.4",
+    "@geist-ui/react": "^2.2.5",
+    "@next/mdx": "^14.0.4",
+    "@tailwindcss/typography": "^0.5.10",
+    "contentlayer": "^0.3.4",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.16",
+    "geist": "^1.2.0",
+    "gray-matter": "^4.0.3",
+    "next": "^14.0.4",
+    "next-contentlayer": "^0.3.4",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sugar-high": "^0.5.6"
+  },
+  "resolutions": {
+    "react/jsx-runtime": "https://github.com/react/jsx-runtime.git"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3"
   }
 }
