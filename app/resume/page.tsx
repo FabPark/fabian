@@ -16,7 +16,7 @@ export default function work() {
         Motivated by diverse experiences and a commitment to continuous learning,
          my journey has led me to this moment. Now, more than ever, 
          I'm ready to embrace the role of a programmer.
-         If you want to see the full resume, please click <a download href="public/files/resume.pdf">
+         If you want to see the full resume, please click <a download href="files/resume.pdf">
         here</a> or continue reading on.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
