@@ -12,6 +12,13 @@ interface MdxProps {
   code: string
 }
 
+
+export function Mdx({ code }: MdxProps) {
+  const Component = useMDXComponent(code)
+
+  return <Component component={components} />
+}
+
 // interface CodeProps {
 //   children: ReactNode;
 //   // 
@@ -34,11 +41,6 @@ interface MdxProps {
 //   code: Code, 
 // }
 
-export function Mdx({ code }: MdxProps) {
-  const Component = useMDXComponent(code)
-
-  return <Component component={components} />
-}
 
 // //test
 // const defaultComponents = {
