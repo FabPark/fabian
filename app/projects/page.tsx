@@ -16,7 +16,7 @@ export default function Home() {
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-            <Link href="https://github.com/FabPark/netflix_copy" target="_blank">Netflix-like website</Link></h2> 
+            <Link href="https://659f893c51c19c00098772cb--teal-starlight-5a49a5.netlify.app/#/" target="_blank">Netflix-like website</Link></h2> 
             <p>
         Explore everything about the hottest and newest movie releases!
         </p>
