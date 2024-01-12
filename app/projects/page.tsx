@@ -21,18 +21,6 @@ export default function Home() {
         Explore everything about the hottest and newest movie releases!
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-        <Link href="https://codepen.io/fabtaco/pen/bGwGLrJ" target="_blank">Survey Form</Link></h2> 
-        <p>
-        Coke or Pepsi?
-        </p>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-        <Link href="https://codepen.io/fabtaco/pen/rNLompx" target="_blank">Tribute Page</Link></h2> 
-        <p>
-        Huge fan of Anthony Boudain
-        </p>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <p>
        
 I'm currently revamping old projects and diving into new ones.

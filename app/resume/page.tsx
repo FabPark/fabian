@@ -22,37 +22,45 @@ export default function work() {
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Developing</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Full Stack Developer
+          Full-Stack Developer
         </p>
         <p>
-          This is my coding journey
+        <Link href="https://sr-hegc.onrender.com/" target="_blank">SR</Link>
+        </p>
+        <p>
+        SR(Suwon Restaurants) is a dynamic MERN full-stack app that enables English-speaking foreigners to explore diverse 
+          restaurants in Suwon, Korea, and access information about them.
+        </p>
+        <p>
+          Key Features:
         </p>
         <ul>
           <li>
-            October 27, 2020 -- I said Hello in HTML Elements on freecodecamp. 
-            The rush of energy that I got that day propelled me to study more!
+          Registered users can suggest which restaurants to add/update/delete to the admin
           </li>
           <li>
-            November 23, 2020 -- I created my {' '}
-            <Link href="https://codepen.io/fabtaco/pen/rNLompx" target="_blank">first tribute page</Link>. 
+          Web scraped real-time data using Python and stored it into database in MongoDB to provide the latest information
+          </li>
+          </ul>
+          
+          <p>
+          <Link href="https://659f893c51c19c00098772cb--teal-starlight-5a49a5.netlify.app/#/" target="_blank">NC</Link>
+          </p>
+          <p>
+          NC(Neflix Copy) is a React movie app that utilizes the data from data from The Movie Database (TMDb).
+          </p>
+          <p>
+            Key Features:
+          </p>
+          <ul>
+          <li>
+          Displays the upcoming releases, popular choices, and top-rated films, ensuring users stay in the loop 
+          with the latest in cinema.
           </li>
           <li>
-            February 20, 2021 -- I created my {' '}
-            <Link href="https://codepen.io/fabtaco/pen/bGwGLrJ" target="_blank">first survey form</Link>. 
+          Users can select a movie of their interest to find related the overview and release date of the movie
           </li>
-          <li>
-            July 3, 2023 -- I created my {' '}
-            <Link href="https://github.com/FabPark/netflix_copy" target="_blank">netflix-like website</Link>.  
-          </li>
-          <li>
-            December 8, 2023 -- I created my {' '}
-            <Link href="https://sr-hegc.onrender.com/" target="_blank">first MERN stack project</Link>. 
-          </li>
-          <li>
-            December 12, 2023 -- I created my {' '}
-            <Link href="/">first Next.js project</Link>. 
-          </li>
-        </ul>
+          </ul>
         <p>
         I'm currently working on upgrading and enhancing projects. 
         I hope to secure a position where I can contribute to even larger projects. 
