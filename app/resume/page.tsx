@@ -44,7 +44,7 @@ export default function work() {
           </ul>
           
           <p>
-          <Link href="https://659f893c51c19c00098772cb--teal-starlight-5a49a5.netlify.app/#/" target="_blank">NC</Link>
+          <Link href="https://65a2209f6ab4c90008edde6f--teal-starlight-5a49a5.netlify.app/#/" target="_blank">NC</Link>
           </p>
           <p>
           NC(Neflix Copy) is a React movie app that utilizes the data from data from The Movie Database (TMDb).
