@@ -1,33 +1,86 @@
 import Link from 'next/link';
+import SR from 'public/images/SR.jpeg'
+import NC from 'public/images/NC.jpeg'
+import Image from 'next/image'
 
 export default function Home() {
+
   return (
     <section>
-       <h1 className="font-medium text-2xl mb-8 tracking-tighter">Check out my projects!</h1>
-       <div className="prose prose-neutral dark:prose-invert">
+      <h1 className="font-medium text-2xl mb-8 tracking-tighter">Check out my projects!</h1>
+      <div className="prose prose-neutral dark:prose-invert">
         <p>
-        Explore my latest projects at the top, and scroll down to discover my earlier works!
-        </p>
-      <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-        <Link href="https://sr-hegc.onrender.com/" target="_blank">MERN stack project</Link></h2>
-        <p>
-        SR makes navigating Suwon's dining scene a breeze with English information!
+          Explore my latest projects at the top, and scroll down to discover my earlier works!
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-            <Link href="https://65a2209f6ab4c90008edde6f--teal-starlight-5a49a5.netlify.app/#/" target="_blank">Netflix-like website</Link></h2> 
-            <p>
-        Explore everything about the hottest and newest movie releases!
+          <Link href="https://sr-hegc.onrender.com/" target="_blank">SR</Link></h2>
+        <p>
+          SR makes navigating Suwon's dining scene a breeze with English information!
         </p>
+        <p>
+          Technologies used: MongoDB, Express.JS, React, Node.JS, Python, BeautifulSoup
+        </p>
+        <ul>
+          <div className="flex items-center mb-1">
+            <p className="mr-4">Project Link:</p>
+            <a href="https://sr-hegc.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Project Link">
+              <Image
+                alt="SR"
+                src={SR}
+                width={30}
+                height={30}
+                className="rounded-lg object-cover object-top sm:object-center mr-4"
+              />
+            </a>
+            <p className="mr-4">Code Link:</p>
+            <a href="https://github.com/FabPark/SR" target="_blank" aria-label="Fab's page" className="footer-octicon" title="GitHub">
+              <svg style={{
+                display: "inline-block"
+              }} aria-hidden="true" className="octicon octicon-mark-github" height="30" version="1.1" viewBox="0 0 16 16" width="24"><path fillRule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+              </svg>
+            </a>
+          </div>
+        </ul>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+          <Link href="https://65a2209f6ab4c90008edde6f--teal-starlight-5a49a5.netlify.app/#/" target="_blank">NC</Link></h2>
+        <p>
+          NC shows the latest movies!
+        </p>
+        <p>
+          Technologies used: JavaScript, HTML/CSS, React, Bootstrap, React Router DOM
+        </p>
+        <ul>
+          <div className="flex items-center mb-1">
+            <p className="mr-4">Project Link:</p>
+            <a href="https://teal-starlight-5a49a5.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Project Link">
+              <Image
+                alt="NC"
+                src={NC}
+                width={30}
+                height={30}
+                className="rounded-lg object-cover object-top sm:object-center mr-4"
+              />
+            </a>
+            <p className="mr-4">Code Link:</p>
+            <a href="https://github.com/FabPark/NC" target="_blank" aria-label="Fab's page" className="footer-octicon" title="GitHub">
+              <svg style={{
+                display: "inline-block"
+              }} aria-hidden="true" className="octicon octicon-mark-github" height="30" version="1.1" viewBox="0 0 16 16" width="24"><path fillRule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+              </svg>
+            </a>
+          </div>
+        </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <p>
-       
-I'm currently revamping old projects and diving into new ones.
-Hoping to join a team for larger projects soon.
-In the meantime, I'll keep crafting side projects. Thanks for dropping by!
-        </p> 
-        </div>
+
+          I'm currently revamping old projects and diving into new ones.
+          Hoping to join a team for larger projects soon.
+          In the meantime, I'll keep crafting side projects. Thanks for dropping by!
+        </p>
+      </div>
     </section>
   );
 }
