@@ -39,7 +39,7 @@ export default function work() {
           Registered users can suggest which restaurants to add/update/delete to the admin
           </li>
           <li>
-          Web scraped real-time data using Python and stored it into database in MongoDB to provide the latest information
+          Collected real-time data using Python and stored it in MongoDB to provide the latest information
           </li>
           </ul>
           
